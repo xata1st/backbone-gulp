@@ -1,0 +1,105 @@
+$title-span-color: #1E1E1E;
+
+.show-grid {
+  margin-bottom: 15px;
+}
+
+.title-span-18 {
+  color: $title-span-color;
+  font-size: 18px;
+}
+
+.title-span-20 {
+  color: $title-span-color;
+  font-size: 20px;
+}
+
+.title-span-22 {
+  color: $title-span-color;
+  font-size: 22px;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+.btn.grey {
+  color: #666;
+}
+
+.form-control.sharp {
+  border-radius:0;
+}
+
+.input-group-addon.sharp {
+  border-radius:0;
+}
+
+.vertical-center {
+  //min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  //min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+@font-face{
+  font-family:"HelveticaNeueETW01-45Lt";
+  src:url("../fonts/e0781a75-0ecb-464e-b6e9-85780ddc0921.eot?#iefix");
+  src:url("../fonts/e0781a75-0ecb-464e-b6e9-85780ddc0921.eot?#iefix") format("eot"),url("../fonts/d7d2e6c6-fc3a-41a5-9b52-648e12e215b2.woff") format("woff"),url("../fonts/cb64744b-d0f7-4ef8-a790-b60d6e3e4f21.ttf") format("truetype"),url("../fonts/ccde919e-a712-41ef-b90f-9efc47661659.svg#ccde919e-a712-41ef-b90f-9efc47661659") format("svg");
+}
+@font-face{
+  font-family:"HelveticaNeueETW02-45Lt";
+  src:url("../fonts/7e44a768-e2b1-4525-9ce2-3bdf2251567e.eot?#iefix");
+  src:url("../fonts/7e44a768-e2b1-4525-9ce2-3bdf2251567e.eot?#iefix") format("eot"),url("../fonts/78abe6d7-60ee-4a4c-b5f7-676fcff72e80.woff") format("woff"),url("../fonts/303701d4-af3a-47bc-a704-22e366d2b3af.ttf") format("truetype"),url("../fonts/da4e5d93-0c5b-4300-b52b-2ddb956f353a.svg#da4e5d93-0c5b-4300-b52b-2ddb956f353a") format("svg");
+}
+@font-face{
+  font-family:"HelveticaNeueETW02-65Md";
+  src:url("../fonts/de8ea7a9-5466-4dc7-b7ab-af0e574abc59.eot?#iefix");
+  src:url("../fonts/de8ea7a9-5466-4dc7-b7ab-af0e574abc59.eot?#iefix") format("eot"),url("../fonts/b9737fe6-d319-40cb-86ee-6ba0882bd5c2.woff") format("woff"),url("../fonts/2e97165a-0bc2-4d7b-932e-469416453152.ttf") format("truetype"),url("../fonts/599c2c22-db49-4454-97d0-6bb81892c795.svg#599c2c22-db49-4454-97d0-6bb81892c795") format("svg");
+}
+@font-face{
+  font-family:"HelveticaNeueETW01-65Md";
+  src:url("../fonts/a747e1ea-ecdf-4f3d-ad47-3df9cfbee3cc.eot?#iefix");
+  src:url("../fonts/a747e1ea-ecdf-4f3d-ad47-3df9cfbee3cc.eot?#iefix") format("eot"),url("../fonts/07173950-fa69-4b65-9c71-0cf2ec00b51d.woff") format("woff"),url("../fonts/aac5a4b8-ffd3-4529-a098-21b91bc86f9a.ttf") format("truetype"),url("../fonts/2379b081-2371-47d9-8be9-4e39d7892ebf.svg#2379b081-2371-47d9-8be9-4e39d7892ebf") format("svg");
+}
+@font-face{
+  font-family:"Helvetica Neue LT W06_45 Light";
+  src:url("../fonts/2b5cafe0-7a75-4a94-8c93-83a1045ab561.eot?#iefix");
+  src:url("../fonts/2b5cafe0-7a75-4a94-8c93-83a1045ab561.eot?#iefix") format("eot"),url("../fonts/0ee5a0a2-d066-4165-9d6a-bc5ef03378d4.woff") format("woff"),url("../fonts/61d037d3-89f4-41ba-bdbf-236fb71985fe.ttf") format("truetype"),url("../fonts/986d248f-a13b-4ab2-b00a-1cba92708a5e.svg#986d248f-a13b-4ab2-b00a-1cba92708a5e") format("svg");
+}
+@font-face{
+  font-family:"Helvetica Neue LT W06_61366420";
+  src:url("../fonts/bee067c0-4164-475c-80cd-c5deaa135aa9.eot?#iefix");
+  src:url("../fonts/bee067c0-4164-475c-80cd-c5deaa135aa9.eot?#iefix") format("eot"),url("../fonts/1bafba63-797d-4359-b385-3d41cf034a77.woff") format("woff"),url("../fonts/41918566-d669-48d7-8c1a-69222e19302d.ttf") format("truetype"),url("../fonts/d51caf62-1d37-4c88-8993-92a92f8e4473.svg#d51caf62-1d37-4c88-8993-92a92f8e4473") format("svg");
+}
+
+
+//TODO Move to better place
+.pagination > .active > a{
+  background-color: $abb_b_sub_w;
+}
+
+.pagination{
+
+  border: 0px solid transparent!important;
+}
+.pagination > li > a, .pagination > li > span{
+	border: 0px solid transparent;
+	height: 32px;
+	width: 32px;
+	padding: 4px;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus{
+	background-color: $abb_b_sub_w;
+}
+.no-border{
+	border: 0px solid transparent!important;
+}
+.modal-dialog {
+    font-family: HelveticaNeueETW02-45Lt,Arial,sans-serif;
+}
+.suppliersappModalDialog {
+     /*width: 780px;*/
+	 width: 975px;
+}

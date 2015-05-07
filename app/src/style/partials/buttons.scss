@@ -1,0 +1,36 @@
+.btn-default {
+	@extend .btn-default;
+	@include abb_n_grad_w();
+
+	&:active,
+	&.active {
+	    outline: 0;
+	    background-image: none;
+	    @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+
+	    @include abb_sub_w_grad_head_b();
+	    color: $btn-default-active-color;
+	}
+}
+
+.btn-primary {
+	@extend .btn-primary;
+	@include abb_sub_w_grad_head_b();
+}
+
+.slider.slider-horizontal {
+	@extend .slider.slider-horizontal;
+	width: 100%;
+
+	>.slider-track {
+		@extend .slider-track;
+		>.slider-handle {
+			@extend .slider-handle;
+			@include abb_n_grad_w();
+		}
+		>.slider-selection {
+			@extend .slider-selection;
+			@include abb_sub_w_grad_head_b();
+		}
+	}
+}

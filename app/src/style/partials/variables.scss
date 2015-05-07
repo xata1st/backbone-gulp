@@ -1,0 +1,109 @@
+//Colors
+//head_w = Headline on white background
+//head_b = Headline on black background
+//sub_w = Subheadline on white background
+//sub_b = Subheadline on black background
+
+
+$abb_b_head_w: 					#004B7A;
+$abb_b_sub_w: 					#0076B7;
+$abb_b_head_b: 					#0096EA;
+$abb_b_abb_sub_b: 				#5BD8FF;
+$abb_b_lightest:				#ACECFF;
+
+$abb_bg_head_w:					#00555F;
+$abb_bg_sub_w:					#007987;
+$abb_bg_head_b:					#00ACB6;
+$abb_bg_sub_b:					#39E8DA;
+$abb_bg_lightest:				#97FFEF;
+
+$abb_g_head_w:					#005514;
+$abb_g_sub_w:					#028208;
+$abb_g_head_b:					#3Ab200;
+$abb_g_sub_b:					#98DB38;
+$abb_g_lightest:				#C7FCA6;
+
+$abb_gy_head_w:					#4E561D;
+$abb_gy_sub_w:					#6A7400;
+$abb_gy_head_b:					#B0B023;
+$abb_gy_sub_b:					#C6D55E;
+$abb_gy_lightest:				#E2EC8C;
+
+$abb_v_head_w:					#493881;
+$abb_v_sub_w:					#6E5AA1;
+$abb_v_head_b:					#9868EF;
+$abb_v_sub_b:					#B4A0E8;
+$abb_v_lightest:				#D8CCF8;
+
+$abb_ov_head_w:					#6D1541;
+$abb_ov_sub_w:					#B04A74;
+$abb_ov_head_b:					#DA3D63;
+$abb_ov_sub_b:					#E69BB4;
+$abb_ov_lightest:				#F1BEC5;
+
+$abb_o_head_w:					#9A2800;
+$abb_o_sub_w:					#BF4500;
+$abb_o_head_b:					#FF6C00;
+$abb_o_sub_b:					#FDAC25;
+$abb_o_lightest:				#FFDB85;
+
+$abb_y_head_w:					#AF7801;
+$abb_y_sub_w:					#DDA00A;
+$abb_y_head_b:					#EECE23;
+$abb_y_sub_b:					#F4EE7F;
+$abb_y_lightest:				#FAF3AE;
+
+$abb_gray_1:					#1E1E1E;
+$abb_gray_2:					#3C3C3C;
+$abb_gray_3:					#6E6E6E;
+$abb_gray_4:					#A0A0A0;
+$abb_gray_5:					#D2D2D2;
+$abb_gray_6:					#F0F0F0;
+$abb_gray_7:					#FAFAFA;
+
+//abb_red:						#FF000F;
+$abb_black:						#000000;
+$abb_gray:						#868686;
+$abb_inactive_gray:				#BEBEBE;
+$abb_white:						#FFFFFF;
+$abb_functional_red:			#D90000;
+$abb_functional_yellow:			#FECB00;
+$abb_functional_green:			#6BB324;
+
+//font-sizes
+
+$h1-font-size: 32px;
+$h1-line-height: 40px;
+
+$h2-font-size: 26px;
+$h2-line-height: 32px;
+
+$label-font-size: 12px;
+
+//section borders
+
+$section-border-width: 1px;
+$section-border-style: solid;
+$section-border-color: lightgray;
+
+//section
+
+$section-min-width: 461px;
+$form-margin-top: 25px;
+$header-font-color: #004B7A;
+$header-font-size: 26px;
+
+
+//buttons
+
+$btn-default-active-color: white;
+
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+
+$button-border-radius: 0;
+
+//forms
+
+$input-border-radius: 0;

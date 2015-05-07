@@ -1,0 +1,11 @@
+.span-h1 {
+	@include span-h($abb_b_head_w, $h1-font-size, $h1-line-height);
+}
+
+.span-h2 {
+	@include span-h($abb_b_head_w, $h2-font-size, $h2-line-height);
+}
+
+.margin-top-20 {
+	@include margin-top(20px);
+}

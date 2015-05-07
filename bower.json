@@ -1,0 +1,29 @@
+{
+  "name": "ProMIS",
+  "version": "0.0.0",
+  "authors": [
+    "Siarhei Vlasko <siarhei.vlasko@ericpol.com>"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	  "json3": "*",
+    "bootstrap-sass-official": "3.3.2",
+    "bootstrap-switch-sass": "*",
+    "bootstrap-datepicker": "*",
+    "seiyria-bootstrap-slider": "*",
+	  "jquery": "2.*",
+    "underscore": "*",
+    "backbone": "*",
+    "requirejs": "*",
+    "requirejs-text": "2.0.12"
+  }
+}

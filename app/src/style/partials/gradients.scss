@@ -1,0 +1,104 @@
+//Gradient colors
+//grad_w = the gradient on white background
+//grad_b = the gradient on black background
+
+//the property background: $abb_b_sub_w; is used only for old browsers
+//line "--" is used only for separating groups by 8 elements
+//-----------------------------------------------------------------------------------------------
+
+@mixin gradient-vertical-to-bottom($start-color, $end-color) {
+	@include gradient-vertical($start-color, $end-color, 100%, 0%);
+}
+
+@mixin abb_b_grad_w {
+	@include gradient-vertical-to-bottom($abb_b_sub_w, $abb_b_head_w);
+}
+
+@mixin abb_b_grad_b {
+	@include gradient-vertical-to-bottom($abb_b_sub_b, $abb_b_head_b);
+}
+
+@mixin abb_bg_grad_w {
+	@include gradient-vertical-to-bottom($abb_bg_sub_w, $abb_bg_head_w);
+}
+
+@mixin abb_bg_grad_b {
+	@include gradient-vertical-to-bottom($abb_bg_sub_b, $abb_bg_head_b);
+}
+
+@mixin abb_g_grad_w {
+	@include gradient-vertical-to-bottom($abb_g_sub_w, $abb_g_head_w);
+}
+
+@mixin abb_g_grad_b {
+	@include gradient-vertical-to-bottom($abb_g_sub_b, $abb_g_head_b);
+}
+
+@mixin abb_gy_grad_w {
+	@include gradient-vertical-to-bottom($abb_gy_sub_w, $abb_gy_head_w);
+}
+
+@mixin abb_gy_grad_b {
+	@include gradient-vertical-to-bottom($abb_gy_sub_b, $abb_gy_head_b);
+}
+
+//-----------------------------------------------------------------------------------------------
+
+@mixin abb_v_grad_w {
+	@include gradient-vertical-to-bottom($abb_v_sub_w, $abb_b_head_w);
+}
+
+@mixin abb_v_grad_b {
+	@include gradient-vertical-to-bottom($abb_v_sub_b, $abb_v_head_b);
+}
+
+@mixin abb_ov_grad_w {
+	@include gradient-vertical-to-bottom($abb_ov_sub_w, $abb_ov_head_w);
+}
+
+@mixin abb_ov_grad_b {
+	@include gradient-vertical-to-bottom($abb_ov_sub_b, $abb_ov_head_b);
+}
+
+@mixin abb_o_grad_w {
+	@include gradient-vertical-to-bottom($abb_o_sub_w, $abb_o_head_w);
+}
+
+@mixin abb_o_grad_b {
+	@include gradient-vertical-to-bottom($abb_o_sub_b, $abb_o_head_b);
+}
+
+@mixin abb_b_grad_w {
+	@include gradient-vertical-to-bottom($abb_y_sub_w, $abb_y_head_w);
+}
+
+@mixin abb_b_grad_b {
+	@include gradient-vertical-to-bottom($abb_y_sub_b, $abb_y_head_b);
+}
+
+//-----------------------------------------------------------------------------------------------
+
+@mixin abb_n_grad_b {
+	@include gradient-vertical-to-bottom($abb_black, $abb_gray_1);
+}
+
+@mixin abb_n_grad_w {
+	@include gradient-vertical-to-bottom($abb_gray_7, $abb_gray_6);
+}
+
+@mixin abb_dd_grad_b {
+	@include gradient-vertical-to-bottom($abb_gray_5, $abb_gray);
+}
+
+@mixin abb_dd_grad_w {
+	@include gradient-vertical-to-bottom($abb_gray_6, $abb_gray_5);
+}
+
+//-----------------------------------------------------------------------------------------------
+
+@mixin abb_sub_w_grad_head_b {
+	@include gradient-vertical-to-bottom($abb_b_sub_w, $abb_b_head_b);
+}
+@mixin abb_sub_w_grad_head_b_hover {
+	@include gradient-vertical-to-bottom($abb_b_head_b, $abb_b_head_b);
+}

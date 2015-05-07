@@ -1,0 +1,110 @@
+@mixin custom-label {
+	label:not(.btn) {
+		font-size: $label-font-size;
+	}
+
+	label.disabled {
+    	color: $abb_gray_5;
+	}
+}
+
+@mixin section-min-width {
+  min-width: $section-min-width;
+}
+
+@mixin section-border {
+  border: $section-border-width $section-border-style $section-border-color;
+}
+
+@mixin supplier-header {
+  color: $header-font-color;
+  font-size: $header-font-size;
+}
+
+@mixin custom-supplier-form($l-font-size, $m-top) {
+  .supplier-form {
+    @extend .row;
+    margin-top: $m-top;
+  }
+
+  @include custom-label();
+}
+
+@mixin supplier-section {
+  @extend .row;
+  @include section-border();
+  @include section-min-width();
+
+  $notification-color: #D90000;
+
+  .supplier-header {
+    @include supplier-header();
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+
+  @include custom-supplier-form($label-font-size, $form-margin-top);
+}
+
+.section-suppliers {
+  @include supplier-section();
+
+  .sm-distance {
+    .form-group:not(:last-child) {
+      padding-right: 0px;
+    }
+
+    .form-group:not(:first-child) {
+      padding-left: 10px;
+    }
+  }
+
+  .sm-distance-one {
+    .form-group {
+      padding-right: 0px;
+    }
+  }
+
+  .form-group  {
+    .control-label {
+      display: none;
+    }
+  }
+
+  .has-error {
+    .control-label {
+      display: block;
+    }
+  }
+}
+
+@mixin span-h($font-color, $font-size, $line-height) {
+	color: $font-color;
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+@mixin margin-top($value) {
+	margin-top: $value;
+}
+
+@mixin custom-slider() {
+	.slider.slider-horizontal {
+		@extend .slider.slider-horizontal;
+		width: 100%;
+
+		>.slider-track {
+			@extend .slider-track;
+			>.slider-handle {
+				@extend .slider-handle;
+				@include abb_dd_grad_b();
+			}
+			>.slider-selection {
+				@extend .slider-selection;
+				@include abb_bg_grad_w();
+			}
+		}
+	}
+}
